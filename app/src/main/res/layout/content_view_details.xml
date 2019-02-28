@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".View_details"
+    tools:showIn="@layout/activity_view_details">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/ed1"
+        android:layout_marginTop="50dp"
+        android:hint="Enter ID to fetch the record"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/txt1"
+        android:layout_below="@id/ed1"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/txt2"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_1"
+        android:text="Get details"
+        android:layout_below="@id/txt2"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="5dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_3"
+        android:text="Update"
+        android:layout_below="@id/txt2"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="220dp" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="101dp"
+        android:text="Delete" />
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="101dp"
+        android:text="View All" />
+
+</RelativeLayout>
